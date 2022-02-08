@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia de hunt</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
+  <link rel="shortcut icon" href="../favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body>
+  <header class="cabecalho">
+    <a href="../index.html"><img class="cabecalho-imagem" src="siegh-logo.png" alt="logo"></a>
+    <nav class="cabecalho-menu">
+      <a class="cabecalho-menu-item" href="https://www.youtube.com/channel/UCto-r9x8LoX1kyvphhZHoCg"
+        target="_blank">Youtube</a>
+      <a class="cabecalho-menu-item" href="https://www.twitch.tv/caiosiegh" target="_blank">Twitch</a>
+      <a class="cabecalho-menu-item" href="index.html" target="_blank">Calculadora de Imbui</a>
+      <a class="cabecalho-menu-item" href="">GitHub</a>
+    </nav>
+  </header>
+
+  <main class="conteudo">
+    <section class="conteudo-principal">
+      <h1 class="conteudo-principal-titulo">Calculadora de Imbui by Siegh</h1>
+    </section>
+
+    <section class="conteudo-secundario">
+      <div class="calculadora">
+        <form class="form-lifeleech">
+          <h2 class="classificacao-imbui">Life Leech</h2>
+          <label> Vampire Teeh: </label>: <input type="number" name="teeh" id="teeth">
+          <p></p>
+          <label>Bloody Pincer: </label><input type="number" name="pincer" id="pincer">
+          <p></p>
+          <label>Piece of Dead Brain: </label><input type="number=" name="brain" id="brain">
+          <p></p>
+          <label> Gold Token: </label><input type="number" name="token" id="token">
+          <p></p>
+          <button class="botao" onclick="calcularLife()">Calcular</button>
+          <br>
+          <ul id="texto-escrito"></ul>
+        </form>
+
+        <form class="form-manaleech">
+          <h2 classificacao-imbui>Mana Leech</h2>
+          <label>Rope Belt: </label><input type="number" name="belt" id="belt">
+          <p></p>
+          <label>Silncer Claw: </label><input type="number" name="claw" id="claw">
+          <p></p>
+          <label>Grimeleech Wing: </label><input type="number" name="wing" id="wing">
+          <p></p>
+          <label>Gold Token: </label><input type="number" name="token" id="token1">
+          <p></p>
+          <button class="botao" onclick="calcularMana()">Calcular</button>
+          <br>
+          <ul id="texto-escrito"></ul>
+        </form>
+
+        <form class="form-strike">
+          <h2 class="classificacao-imbui">Strike</h2>
+          <label>Protective Charm: </label><input type="number" name="protective" id="protective">
+          <p></p>
+          <label>Sabretooth: </label><input type="number" name="tooth" id="tooth">
+          <p></p>
+          <label>Vexclaw Talon: </label><input type="number" name="talon" id="talon">
+          <p></p>
+          <label>Gold Token: </label><input type="number" name="token" id="token2">
+          <p></p>
+          <button class="botao" onclick="calcularStrike()">Calcular</button>
+          <br>
+          <ul id="texto-escrito"></ul>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <a class="rodape-items" href="https://twitter.com/caiosiegh" target="_blank">Twitter</a>
+    <a class="rodape-items" href="">Linkedin</a>
+    <a class="rodape-items" href="https://www.instagram.com/caiosiegh/" target="_blank">Instagram</a>
+  </footer>
+</body>
+
+</html>
